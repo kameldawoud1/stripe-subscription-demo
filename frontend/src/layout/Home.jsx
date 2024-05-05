@@ -40,6 +40,7 @@ const Home = () => {
           if (user) {
             console.log(user.subscription.planType)
             setPlanType(user.subscription.planType || "");
+            console.log("user.subscription.planType",user)
           }
         });
       } else {
